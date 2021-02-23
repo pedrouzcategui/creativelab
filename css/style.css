@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.initial_banner{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #333;
+    color: white !important;
+}
+
+.initial_banner > h2{
+    color: white;
+}
+
+.initial_banner > h2, .initial_banner > p, h2{
+    font-family: "Montserrat";
+}
+
+h2{
+    font-weight: bold;
+    color: #f11e3c;
+}
+
+.initial_banner > h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section{
+    min-height:  600px;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.item{
+    margin: 20px 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.item-icon{
+    padding: 30px;
+    width: 150px;
+}
